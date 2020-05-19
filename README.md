@@ -4,5 +4,5 @@ Queries a preprocessed HDF5 file of public SRA RNA-seq data.
 
 Snakemake workflow:
 
-[!img](https://raw.githubusercontent.com/mbernste/find-samples-for-target-genes/master/dag.png)
+![img](https://raw.githubusercontent.com/mbernste/find-samples-for-target-genes/master/dag.png)
 
