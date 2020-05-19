@@ -4,12 +4,8 @@ configfile: 'config.json'
 
 rule all:
     input: 
-        '{}/cell_line_experiments.tsv'.format(config['output']),
-        '{}/experiments_target_gene_expressed.tsv'.format(config['output']),
-        '{}/cell_line_expression_summary.tsv'.format(OUTPUT_DIR),
-        '{}/expression_table.tsv'.format(OUTPUT_DIR),
-        '{}/gene_expression_by_cell_line.pdf'.format(OUTPUT_DIR),
-        '{}/num_isoforms_by_cell_line.pdf'.format(OUTPUT_DIR)
+        '{}/ACE2.tsv'.format(config['output']),
+        '{}/TMPRSS2.tsv'.format(config['output'])
 
 rule find_cell_line_samples:
     output:
