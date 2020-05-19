@@ -1,0 +1,9 @@
+{
+    "output": "/ua/mnbernstein/projects/smith_covid_cell_line_analysis/results",
+    "metasra_file": "/tier2/deweylab/mnbernstein/metasra/metasra.v1-4.sqlite",
+    "sra_file": "/tier2/deweylab/mnbernstein/sra_metadb/SRAmetadb.subdb.18-02-02.sqlite",
+    "target_genes": [
+        "ENSG00000130234",
+        "ENSG00000184012"
+    ]
+}
